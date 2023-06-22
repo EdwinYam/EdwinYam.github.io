@@ -44,7 +44,7 @@ sections:
         - title: Graduate Researcher
           company: Speech Processing & Machine Learning Laboratory, NTU
           company_url: 'https://speech.ee.ntu.edu.tw/~hylee/index.php'
-          company_logo: ntu
+          company_logo: 
           location: Taipei, Taiwan
           date_start: '2018-09-01'
           date_end: '2022-11-10'
@@ -59,7 +59,7 @@ sections:
         - title: Software Engineer Intern
           company: Acoustic and Speech Processing Team of Multimedia Department, MediaTek
           company_url: 'https://www.mediatek.com/'
-          company_logo: MediaTek
+          company_logo: 
           location: Hsinchu, Taiwan
           date_start: '2017-07-01'
           date_end: '2017-08-31'
@@ -69,7 +69,7 @@ sections:
         - title: Research Intern
           company: Institute of Information Science, Academia Sinica
           company_url: 'https://www.iis.sinica.edu.tw/en/index.html'
-          company_logo: AcademiaSinica
+          company_logo: 
           location: Taipei, Taiwan
           date_start: '2016-07-01'
           date_end: '2016-08-31'
