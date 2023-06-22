@@ -44,7 +44,7 @@ sections:
         - title: Graduate Researcher
           company: Speech Processing & Machine Learning Laboratory, NTU
           company_url: 'https://speech.ee.ntu.edu.tw/~hylee/index.php'
-          company_logo: 
+          company_logo: ""
           location: Taipei, Taiwan
           date_start: '2018-09-01'
           date_end: '2022-11-10'
@@ -53,13 +53,13 @@ sections:
 
             * Conducted research in speech processing and acoustic modeling utilizing deep learning techniques to explore novel topics
             * Proposed the first duplex speech chain model capable of performing Text‑to‑Speech and Automatic Speech Recognition simultaneously through the use of a single reversible network, enabling the effective use of supervision signals from both directions
-            * Proposed a rapid neural architecture search approach on audio source separation that utilizes the positive correlation in performance shown between models with fixed randomly weighted layers and their fully trained counterparts 
+            * Proposed a rapid neural architecture search approach on audio source separation that utilizes the positive correlation in performance shown between models with fixed rando mly weighted layers and their fully trained counterparts 
             * Served as a reviewer for ICASSP 2020
 
         - title: Software Engineer Intern
           company: Acoustic and Speech Processing Team of Multimedia Department, MediaTek
           company_url: 'https://www.mediatek.com/'
-          company_logo: 
+          company_logo: ""
           location: Hsinchu, Taiwan
           date_start: '2017-07-01'
           date_end: '2017-08-31'
@@ -69,7 +69,7 @@ sections:
         - title: Research Intern
           company: Institute of Information Science, Academia Sinica
           company_url: 'https://www.iis.sinica.edu.tw/en/index.html'
-          company_logo: 
+          company_logo: ""
           location: Taipei, Taiwan
           date_start: '2016-07-01'
           date_end: '2016-08-31'
@@ -106,7 +106,7 @@ sections:
       #   Leave other parameters empty if not required.
       #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
       items:
-        - certificate_url:
+        - certificate_url: ''
           date_end: ''
           date_start: '2020-04-01'
           description: 
@@ -193,7 +193,9 @@ sections:
   - block: contact
     id: contact
     content:
-      title: Contact    
+      title: Contact
+      subtitle: ''
+      text: ''
       # Contact (add or remove contact options as necessary)
       email: edwinyam@proton.me
       appointment_url: 'https://calendly.com'
