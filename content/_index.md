@@ -55,7 +55,6 @@ sections:
             * Proposed the first duplex speech chain model capable of performing Text‑to‑Speech and Automatic Speech Recognition simultaneously through the use of a single reversible network, enabling the effective use of supervision signals from both directions
             * Proposed a rapid neural architecture search approach on audio source separation that utilizes the positive correlation in performance shown between models with fixed rando mly weighted layers and their fully trained counterparts 
             * Served as a reviewer for ICASSP 2020
-
         - title: Software Engineer Intern
           company: Acoustic and Speech Processing Team of Multimedia Department, MediaTek
           company_url: 'https://www.mediatek.com/'
@@ -63,7 +62,7 @@ sections:
           location: Hsinchu, Taiwan
           date_start: '2017-07-01'
           date_end: '2017-08-31'
-          description:
+          description: |2-
             * Compressed acoustic models via knowledge distillation, maintaining a modest performance decline with 50% fewer parameters
             * Created a toolkit to facilitate seamless migration of acoustic models from Kaldi to Tensorflow, effectively reducing development time
         - title: Research Intern
@@ -73,7 +72,7 @@ sections:
           location: Taipei, Taiwan
           date_start: '2016-07-01'
           date_end: '2016-08-31'
-          description:
+          description: |2-
             * Reimplemented a super‑resolution model, which predicted the residual between the original image and its super‑resolved counterpart
     design:
       columns: '2'
@@ -109,7 +108,7 @@ sections:
         - certificate_url: ''
           date_end: ''
           date_start: '2020-04-01'
-          description: 
+          description: |2-
             * Achieved 8th place out of 469 teams on the leaderboard as team leader
             * Used pretrained language models, SCIBERT, with additional linear layers to perform sequential sentence classification
           organization: Ministry of Education, Taiwan
