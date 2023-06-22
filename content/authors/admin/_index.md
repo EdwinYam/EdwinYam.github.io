@@ -1,7 +1,7 @@
 ---
 title: 陳柏文 Bo-Wen Chen
 role: Graduate Researcher of Machine Learning
-avatar_filename: edwin.jpg
+avatar_filename: avatar.jpg
 bio: My research interests include Text to Speech (TTS) and Automatic Speech
   Recognition (ASR).
 interests:
