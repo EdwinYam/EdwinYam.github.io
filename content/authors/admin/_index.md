@@ -1,48 +1,43 @@
 ---
-title: 陳柏文 Edwin Chen
-role: Professor of Artificial Intelligence
-bio: My research interests include distributed robotics, mobile computing and
-  programmable matter.
+title: 陳柏文 Bo-Wen Chen
+role: Graduate Researcher of Digital Speech Processing and Machine Learning
+avatar_filename: avatar.jpg
+bio: My research interests include Text to Speech (TTS) and Automatic Speech
+  Recognition (ASR).
 interests:
   - Artificial Intelligence
-  - Computational Linguistics
-  - Information Retrieval
+  - Digital Speech Processing
+  - Text-to-Speech
+  - Automatic Speech Processing
 social:
   - icon: envelope
     icon_pack: fas
-    link: /#contact
-  - icon: twitter
-    icon_pack: fab
-    link: https://twitter.com/GeorgeCushen
-    label: Follow me on Twitter
+    link: mailto:edwinyam@proton.me
     display:
       header: true
-  - icon: graduation-cap
-    icon_pack: fas
-    link: https://scholar.google.co.uk/citations?user=sIwtMXoAAAAJ
-  - icon: github
-    icon_pack: fab
-    link: https://github.com/gcushen
+    label: Feel free to contact me!
   - icon: linkedin
     icon_pack: fab
-    link: https://www.linkedin.com/
+    link: https://www.linkedin.com/in/bo-wen-chen/
+  - icon: github
+    icon_pack: fab
+    link: https://github.com/EdwinYam
   - icon: cv
     icon_pack: ai
     link: uploads/resume.pdf
+    display:
+      header: true
 organizations:
-  - name: Stanford University
-    url: https://www.stanford.edu/
+  - name: National Taiwan University
+    url: https://www.ntu.edu.tw/english/
 education:
   courses:
-    - course: PhD in Artificial Intelligence
-      institution: Stanford University
-      year: 2012
-    - course: MEng in Artificial Intelligence
-      institution: Massachusetts Institute of Technology
-      year: 2009
-    - course: BSc in Artificial Intelligence
-      institution: Massachusetts Institute of Technology
-      year: 2008
+    - course: M.S. in Graduate Institute of Communication Engineering
+      institution: National Taiwan University
+      year: ""
+    - course: B.S. in Electrical Engineering
+      institution: National Taiwan University
+      year: ""
 superuser: true
 status:
   icon: ☕️
@@ -51,6 +46,4 @@ highlight_name: true
 first_name: Alice
 email: ""
 ---
-
-Alice Wu is a professor of artificial intelligence at the Stanford AI Lab. Her research interests include distributed robotics, mobile computing and programmable matter. She leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
-{style="text-align: justify;"}
+Bo-Wen Chen is a skilled machine learning researcher with a focus on digital speech processing. Holding a Master's degree from the Graduate Institute of Communication Engineering at National Taiwan University, he possesses a strong academic foundation under the guidance of Prof. Hung-Yi Lee. Bo-Wen's expertise lies in exploring novel topics within speech processing and acoustic modeling using deep learning techniques. One of his notable contributions is the development of a duplex speech chain model that facilitates simultaneous Text-to-Speech and Automatic Speech Recognition. {style="text-align: justify;"}
