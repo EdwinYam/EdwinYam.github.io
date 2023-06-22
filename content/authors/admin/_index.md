@@ -1,6 +1,6 @@
 ---
 title: 陳柏文 Bo-Wen Chen
-role: Graduate Researcher of Digital Speech Processing and Machine Learning
+role: Graduate Researcher of Machine Learning
 avatar_filename: avatar.jpg
 bio: My research interests include Text to Speech (TTS) and Automatic Speech
   Recognition (ASR).
@@ -46,4 +46,5 @@ highlight_name: true
 first_name: Alice
 email: ""
 ---
-Bo-Wen Chen is a skilled machine learning researcher with a focus on digital speech processing. Holding a Master's degree from the Graduate Institute of Communication Engineering at National Taiwan University, he possesses a strong academic foundation under the guidance of Prof. Hung-Yi Lee. Bo-Wen's expertise lies in exploring novel topics within speech processing and acoustic modeling using deep learning techniques. One of his notable contributions is the development of a duplex speech chain model that facilitates simultaneous Text-to-Speech and Automatic Speech Recognition. {style="text-align: justify;"}
+Bo-Wen Chen is a skilled machine learning researcher with a focus on digital speech processing. Holding a Master's degree from the Graduate Institute of Communication Engineering at National Taiwan University, he possesses a strong academic foundation under the guidance of Prof. Hung-Yi Lee. Bo-Wen's expertise lies in exploring novel topics within speech processing and acoustic modeling using deep learning techniques. One of his notable contributions is the development of a duplex speech chain model that facilitates simultaneous Text-to-Speech and Automatic Speech Recognition.\
+{style="text-align: justify;"}
