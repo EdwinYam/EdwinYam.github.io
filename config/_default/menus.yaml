@@ -7,8 +7,8 @@ main:
   - name: Home
     url: '#about'
     weight: 10
-  - name: Experience
-    url: '#experience'
+  - name: Experiences
+    url: '#experiences'
     weight: 30
   - name: Publications
     url: '#publications'
@@ -28,6 +28,6 @@ main:
 
 # Link to a PDF of your resume/CV from the menu.
 # To enable, copy your resume/CV to `static/uploads/resume.pdf` and uncomment the lines below.
-  - name: CV
-    url: uploads/resume_full.pdf
-    weight: 90
+  # - name: CV
+  #   url: uploads/resume_full.pdf
+  #   weight: 90

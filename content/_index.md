@@ -1,7 +1,7 @@
 ---
 # Leave the homepage title empty to use the site title
 title: 陳柏文
-date: 2023-06-21
+date: 2023-06-23
 type: landing
 
 sections:
@@ -24,16 +24,16 @@ sections:
         - name: C/C++
           description: Kaldi
           icon: c
-          icon_pack: fass
+          icon_pack: fas
         - name: Digit Speech Processing
           description: Text-to-Speech, Automatic Speech Recognition
           icon: microphone-alt
           icon_pack: fas
 
   - block: experience
-    id: experience
+    id: experiences
     content:
-      title: Experience
+      title: Experiences
       # Date format for experience
       #   Refer to https://wowchemy.com/docs/customization/#date-format
       date_format: Jan 2006
@@ -51,12 +51,12 @@ sections:
           date_start: '2018-09-01'
           date_end: '2022-11-10'
           description: |2-
-            Advisor: Prof. Hung-Yi Lee
+          Advisor: Prof. Hung-Yi Lee
 
-            * Conducted research in speech processing and acoustic modeling utilizing deep learning techniques to explore novel topics
-            * Proposed the first duplex speech chain model capable of performing Text‑to‑Speech and Automatic Speech Recognition simultaneously through the use of a single reversible network, enabling the effective use of supervision signals from both directions
-            * Proposed a rapid neural architecture search approach on audio source separation that utilizes the positive correlation in performance shown between models with fixed rando mly weighted layers and their fully trained counterparts 
-            * Served as a reviewer for ICASSP 2020
+          * Conducted research in speech processing and acoustic modeling utilizing deep learning techniques to explore novel topics
+          * Proposed the first duplex speech chain model capable of performing Text‑to‑Speech and Automatic Speech Recognition simultaneously through the use of a single reversible network, enabling the effective use of supervision signals from both directions
+          * Proposed a rapid neural architecture search approach on audio source separation that utilizes the positive correlation in performance shown between models with fixed rando mly weighted layers and their fully trained counterparts 
+          * Served as a reviewer for ICASSP 2020
         - title: Software Engineer Intern
           company: Acoustic and Speech Processing Team of Multimedia Department, MediaTek
           company_url: 'https://www.mediatek.com/'
@@ -117,7 +117,7 @@ sections:
             * Used pretrained language models, SCIBERT, with additional linear layers to perform sequential sentence classification
           organization: Ministry of Education, Taiwan
           organization_url: https://tbrain.trendmicro.com.tw/Competitions/Details/8
-          title: Honorable Mention Award
+          title: Honorable Mention Award, AI CUP - Abstract Labeling Competition
           url: 'https://github.com/EdwinYam/AICUP2019-Abstract_Labeling'
     design:
       columns: '2'
@@ -202,13 +202,6 @@ sections:
       # Contact (add or remove contact options as necessary)
       email: edwinyam@proton.me
       appointment_url: 'https://calendly.com'
-      address:
-        street: ''
-        city: Taipei
-        region: ''
-        postcode: ''
-        country: Taiwan
-        country_code: TW
 
       # Automatically link email and phone or display as text?
       autolink: true
