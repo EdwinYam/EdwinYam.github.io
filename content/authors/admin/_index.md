@@ -1,14 +1,13 @@
 ---
 title: 陳柏文 Bo-Wen Chen
-role: Graduate Researcher of Machine Learning
+role: Graduate Researcher
 avatar_filename: avatar.jpg
-bio: My research interests include Text to Speech (TTS) and Automatic Speech
-  Recognition (ASR).
+bio: My research focuses on machine learning and digital speech processing, specifically in the areas of Text to Speech (TTS) and Automatic Speech Recognition (ASR).
 interests:
-  - Artificial Intelligence
+  - Machine Learning
   - Digital Speech Processing
-  - Text to Speech
-  - Automatic Speech Processing
+  - Text-to-Speech
+  - Automatic Speech Recognition
 social:
   - icon: envelope
     icon_pack: fas

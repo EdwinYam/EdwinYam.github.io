@@ -1,6 +1,6 @@
 ---
 # Leave the homepage title empty to use the site title
-title: EdwinYam's
+title: 陳柏文
 date: 2023-06-21
 type: landing
 
@@ -13,6 +13,7 @@ sections:
       username: admin
 
   - block: features
+    id: skills
     content:
       title: Skills
       items:
@@ -21,15 +22,16 @@ sections:
           icon: python
           icon_pack: fab
         - name: C/C++
-          description: 
-          icon: cplusplus
-          icon_pack: fab
+          description: Kaldi
+          icon: c
+          icon_pack: fass
         - name: Digit Speech Processing
-          description: Text-to-Speech (TTS), Automatic Speech Recognition (ASR)
+          description: Text-to-Speech, Automatic Speech Recognition
           icon: microphone-alt
           icon_pack: fas
 
   - block: experience
+    id: experience
     content:
       title: Experience
       # Date format for experience
@@ -78,6 +80,7 @@ sections:
       columns: '2'
   
   - block: collection
+    id: publications 
     content:
       title: Publications
       text: |-
@@ -93,6 +96,7 @@ sections:
       view: citation
 
   - block: accomplishments
+    id: awards
     content:
       # Note: `&shy;` is used to add a 'soft' hyphen in a long heading.
       title: 'Awards'
