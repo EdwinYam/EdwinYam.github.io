@@ -5,6 +5,8 @@ authors: []
 tags: []
 categories: []
 date: '2019-02-05T00:00:00Z'
+# Schedule page publish date (NOT talk date).
+publishDate: '2099-01-01T00:00:00Z'
 slides:
   # Choose a theme from https://github.com/hakimel/reveal.js#theming
   theme: black

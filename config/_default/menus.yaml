@@ -16,12 +16,12 @@ main:
   - name: Awards
     url: '#awards'
     weight: 50
-  - name: Projects
-    url: '#projects'
-    weight: 60
-  - name: Posts
-    url: '#posts'
-    weight: 70
+  # - name: Projects
+  #   url: '#projects'
+  #   weight: 60
+  # - name: Posts
+  #   url: '#posts'
+  #   weight: 70
   - name: Contact
     url: '#contact'
     weight: 80
