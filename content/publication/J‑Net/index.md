@@ -21,7 +21,7 @@ publication_types: ["3"]
 publication: "ArXiv preprint"
 publication_short: ""
 
-abstract: Several results in the computer vision literature have shown the potential of randomly weighted neural networks. While they perform fairly well as feature extractors for discriminative tasks, there is a positive correlation between their performance and their fully trained counterparts. Based on these discoveries, we pose two questions: What is the value of randomly weighted networks in difficult generative audio tasks such as audio source separation? And does such a positive correlation still exist when it comes to large random networks and their trained counterparts? In this paper, we demonstrate that the positive correlation indeed still exists. Building on this discovery, we can explore different architecture designs or techniques without training the entire model. Moreover, we found a surprising result that, compared to the non-trained encoder (down-sample path) in Wave-U-Net, fixing the decoder (up-sample path) to random weights results in better performance, almost comparable to the fully trained model.
+abstract: "Several results in the computer vision literature have shown the potential of randomly weighted neural networks. While they perform fairly well as feature extractors for discriminative tasks, there is a positive correlation between their performance and their fully trained counterparts. Based on these discoveries, we pose two questions: What is the value of randomly weighted networks in difficult generative audio tasks such as audio source separation? And does such a positive correlation still exist when it comes to large random networks and their trained counterparts? In this paper, we demonstrate that the positive correlation indeed still exists. Building on this discovery, we can explore different architecture designs or techniques without training the entire model. Moreover, we found a surprising result that, compared to the non-trained encoder (down-sample path) in Wave-U-Net, fixing the decoder (up-sample path) to random weights results in better performance, almost comparable to the fully trained model."
 
 # Summary. An optional shortened abstract.
 summary: Randomly weighted neural networks have potential in computer vision and demonstrate a positive correlation with fully trained models. This paper confirms the continued positive correlation and explores the value of randomly weighted networks in challenging generative audio tasks, such as audio source separation.
@@ -36,7 +36,7 @@ featured: true
 links:
 #- name: Custom Link
 #  url: http://example.org
-url_pdf: https://arxiv.org/pdf/1911.12926.pdf
+url_pdf: 'https://arxiv.org/pdf/1911.12926.pdf'
 url_code: 'https://github.com/EdwinYam/J-Net'
 url_dataset: ''
 url_poster: ''
