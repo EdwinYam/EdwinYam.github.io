@@ -78,7 +78,19 @@ sections:
             * Reimplemented a super‑resolution model, which predicted the residual between the original image and its super‑resolved counterpart
     design:
       columns: '2'
-  
+
+  - block: collection
+    id: featured
+    content:
+      title: Featured Publications
+      filters:
+        folders:
+          - publication
+        featured_only: true
+    design:
+      columns: '2'
+      view: card
+
   - block: collection
     id: publications 
     content:
@@ -192,18 +204,11 @@ sections:
       text: ''
       # Contact (add or remove contact options as necessary)
       email: edwinyam@proton.me
-      appointment_url: 'https://calendly.com'
+      #appointment_url: 'https://calendly.com'
 
       # Automatically link email and phone or display as text?
       autolink: true
-      # Email form provider
-      form:
-        provider: netlify
-        formspree:
-          id:
-        netlify:
-          # Enable CAPTCHA challenge to reduce spam?
-          captcha: false
+
     design:
       columns: '2'
 ---
