@@ -1,7 +1,7 @@
 ---
-title: "An Analysis of Duplex Sequence‑to‑Sequence Learning for Speech Chain"
+title: 'An Analysis of Duplex Sequence‑to‑Sequence Learning for Speech Chain'
 authors:
-- admin
+  - admin
 
 date: "2022-11-10T00:00:00Z"
 doi: "10.6342/NTU202210030"
@@ -25,9 +25,9 @@ abstract: The main objective of this paper is to explore the utilization of reve
 summary: The paper investigates reversible neural network layers for constructing a duplex speech chain model that utilizes bidirectional supervision signals. It introduces a novel approach to address speech synthesis and recognition challenges while analyzing the impact of bidirectional supervision on performance.
 
 tags:
-- Text to Speech
-- Automatic Speech Recognition
-- Digital Speech Processing
+  - Text to Speech
+  - Automatic Speech Recognition
+  - Digital Speech Processing
 featured: true
 
 # links:
@@ -39,7 +39,7 @@ url_dataset: ''
 url_poster: ''
 url_project: ''
 url_slides: 'https://docs.google.com/presentation/d/1h5PDS26giSiNiqv2gxA7AGSubHjLCEnlJ0zTJOsKRXI/edit?usp=sharing'
-url_source: https://tdr.lib.ntu.edu.tw/jspui/handle/123456789/83100
+url_source: 'https://tdr.lib.ntu.edu.tw/jspui/handle/123456789/83100'
 url_video: ''
 
 # Featured image

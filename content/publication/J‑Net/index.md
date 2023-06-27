@@ -1,14 +1,15 @@
 ---
-title: "J‑Net: Randomly Weighted U‑Net for Audio Source Separation"
+title: 'J‑Net: Randomly Weighted U‑Net for Audio Source Separation'
 authors:
-- admin
-- Yen‑Min Hsu
-- Hung‑Yi Lee
-date: "2019-11-29T00:00:00Z"
-doi: "10.48550/arXiv.1911.12926"
+  - admin
+  - Yen‑Min Hsu
+  - Hung‑Yi Lee
+
+date: '2019-11-29T00:00:00Z'
+doi: '10.48550/arXiv.1911.12926'
 
 # Schedule page publish date (NOT publication's date).
-publishDate: "2019-11-29T00:00:00Z"
+publishDate: '2019-11-29T00:00:00Z'
 
 # Publication type.
 # Legend: 0 = Uncategorized; 1 = Conference paper; 2 = Journal article;
@@ -26,9 +27,9 @@ abstract: Several results in the computer vision literature have shown the poten
 summary: Randomly weighted neural networks have potential in computer vision and demonstrate a positive correlation with fully trained models. This paper confirms the continued positive correlation and explores the value of randomly weighted networks in challenging generative audio tasks, such as audio source separation.
 
 tags:
-- Neural Architecture Search
-- Audio Source Separation
-- Digital Signal Processing
+  - Neural Architecture Search
+  - Audio Source Separation
+  - Digital Signal Processing
 
 featured: true
 
