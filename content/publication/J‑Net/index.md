@@ -5,6 +5,7 @@ authors:
   - Yen‑Min Hsu
   - Hung‑Yi Lee
 
+commentable: true
 date: '2019-11-29T00:00:00Z'
 doi: '10.48550/arXiv.1911.12926'
 

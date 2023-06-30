@@ -101,7 +101,7 @@ features:
       category_id: "DIC_kwDOJxSuEc4CXg8z"
       mapping: "pathname"
       label: "comment"
-      theme: dark
+      theme: preferred_color_scheme
       reactions_enabled: "1"
   search:
     provider: wowchemy

@@ -5,6 +5,7 @@ tags:
   - React
   - Security
   - Machine Learning
+commentable: true
 date: '2018-07-04T00:00:00Z'
 PublishDate: '2018-07-04T00:00:00Z'
 

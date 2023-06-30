@@ -3,6 +3,7 @@ title: 'An Analysis of Duplex Sequence‑to‑Sequence Learning for Speech Chain
 authors:
   - admin
 
+commentable: true
 date: "2022-11-10T00:00:00Z"
 doi: "10.6342/NTU202210030"
 
