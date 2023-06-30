@@ -1,9 +1,9 @@
 {
   "origins": [
-    "https://edwinyam.github.io/"
+    "https://edwinyam.github.io",
+    "https://edwinyam.netlify.app"
   ],
   "originsRegex": [
-    "https://edwinyam*/",
     "http:\/\/localhost:[0-9]+"
   ],
   "defaultCommentOrder": "newest"
