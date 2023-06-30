@@ -1,7 +1,7 @@
 ---
 # Leave the homepage title empty to use the site title
 title: 陳柏文
-date: 2023-06-23
+date: '2023-06-29T00:00:00+01:00'
 type: landing
 
 sections:
@@ -26,7 +26,7 @@ sections:
           icon: c
           icon_pack: fas
         - name: Digit Speech Processing
-          description: Text-to-Speech, Automatic Speech Recognition
+          description: Text-to-Speech (TTS), <br/>Automatic Speech Recognition (ASR)
           icon: microphone-alt
           icon_pack: fas
 
@@ -34,9 +34,10 @@ sections:
     id: experiences
     content:
       title: Experiences
+      subtitle: See [Publications](/#publications) for more details.
       # Date format for experience
       #   Refer to https://wowchemy.com/docs/customization/#date-format
-      date_format: Jan 2006
+      date_format: January 2006
       # Experiences.
       #   Add/remove as many `experience` items below as you like.
       #   Required fields are `title`, `company`, and `date_start`.
@@ -44,43 +45,51 @@ sections:
       #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
       items:
         - title: Graduate Researcher
-          company: Speech Processing & Machine Learning Laboratory, NTU
-          company_url: 'https://speech.ee.ntu.edu.tw/~hylee/index.php'
-          company_logo: ""
+          company: 'Speech Processing & Machine Learning Laboratory, <br/>National Taiwan University'
+          company_url: 'https://www.ntu.edu.tw/english/index.html'
+          company_logo: org-NTU
           location: Taipei, Taiwan
           date_start: '2018-09-01'
           date_end: '2022-11-10'
           description: |2-
-            Advisor: Prof. Hung-Yi Lee
+            Supervised by Prof. [Hung-Yi Lee](https://speech.ee.ntu.edu.tw/~hylee/index.php)
 
             * Conducted research in speech processing and acoustic modeling utilizing deep learning techniques to explore novel topics
-            * Proposed the first duplex speech chain model capable of performing Text‑to‑Speech and Automatic Speech Recognition simultaneously through the use of a single reversible network, enabling the effective use of supervision signals from both directions
-            * Proposed a rapid neural architecture search approach on audio source separation that utilizes the positive correlation in performance shown between models with fixed rando mly weighted layers and their fully trained counterparts 
+            * Proposed the first [Duplex Speech Chain model](publication/duplexspeechchain) capable of performing Text‑to‑Speech and Automatic Speech Recognition simultaneously through the use of a single reversible network, enabling the effective use of supervision signals from both directions
+            * Proposed a simple [Neural Architecture Search](publication/jnet/) approach on audio source separation that utilizes the positive correlation in performance shown between models with fixed randomly weighted layers and their fully trained counterparts 
             * Served as a reviewer for ICASSP 2020
+
+            <a class="badge badge-light">TTS</a> <a class="badge badge-light">ASR</a><a class="badge badge-light">Neural Architecture Search</a>
+
         - title: Software Engineer Intern
-          company: Acoustic and Speech Processing Team of Multimedia Department, MediaTek
+          company: 'Speech Processing Team of Multimedia Department, <br/>MediaTek Inc.'
           company_url: 'https://www.mediatek.com/'
-          company_logo: ""
+          company_logo: org-MediaTek
           location: Hsinchu, Taiwan
           date_start: '2017-07-01'
           date_end: '2017-08-31'
           description: |2-
             * Compressed acoustic models via knowledge distillation, maintaining a modest performance decline with 50% fewer parameters
             * Created a toolkit to facilitate seamless migration of acoustic models from Kaldi to Tensorflow, effectively reducing development time
+
+            <a class="badge badge-light">Knowledge Distillation</a> <a class="badge badge-light">Model Migration</a>
+
         - title: Research Intern
           company: Institute of Information Science, Academia Sinica
           company_url: 'https://www.iis.sinica.edu.tw/en/index.html'
-          company_logo: ""
+          company_logo: org-IIS
           location: Taipei, Taiwan
           date_start: '2016-07-01'
           date_end: '2016-08-31'
           description: |2-
             * Reimplemented a super‑resolution model, which predicted the residual between the original image and its super‑resolved counterpart
+
+            <a class="badge badge-light">Super Resolution</a> <a class="badge badge-light">Computer Vision</a>
     design:
-      columns: '2'
+      columns: '1'
 
   - block: collection
-    id: featured
+    id: publications
     content:
       title: Featured Publications
       filters:
@@ -91,30 +100,30 @@ sections:
       columns: '2'
       view: card
 
-  - block: collection
-    id: publications 
-    content:
-      title: Publications
-      text: |-
-        {{% callout note %}}
-        Quickly discover relevant content by [filtering publications](./publication/).
-        {{% /callout %}}
-      filters:
-        folders:
-          - publication
-        exclude_featured: true
-    design:
-      columns: '2'
-      view: citation
+  # - block: collection
+  #   id: publications 
+  #   content:
+  #     title: Publications
+  #     text: |-
+  #       {{% callout note %}}
+  #       Quickly discover relevant content by [filtering publications](./publication/).
+  #       {{% /callout %}}
+  #     filters:
+  #       folders:
+  #         - publication
+  #       exclude_featured: true
+  #   design:
+  #     columns: '2'
+  #     view: citation
 
   - block: accomplishments
     id: awards
     content:
       # Note: `&shy;` is used to add a 'soft' hyphen in a long heading.
-      title: 'Awards'
+      title: Awards
       subtitle:
       # Date format: https://wowchemy.com/docs/customization/#date-format
-      date_format: Jan 2006
+      date_format: January 2006
       # Accomplishments.
       #   Add/remove as many `item` blocks below as you like.
       #   `title`, `organization`, and `date_start` are the required parameters.
@@ -127,6 +136,8 @@ sections:
           description: |2-
             * Achieved 8th place out of 469 teams on the leaderboard as team leader
             * Used pretrained language models, SCIBERT, with additional linear layers to perform sequential sentence classification
+
+            <a class="badge badge-light">NLP</a> <a class="badge badge-light">Multi-Label Classification</a>
           organization: Ministry of Education, Taiwan
           organization_url: https://tbrain.trendmicro.com.tw/Competitions/Details/8
           title: Honorable Mention Award, AI CUP - Abstract Labeling Competition

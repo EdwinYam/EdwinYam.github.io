@@ -19,7 +19,9 @@ publication_types: ["7"]
 publication: "National Taiwan University Theses and Dissertations Repository"
 publication_short: ""
 
-abstract: "The main objective of this paper is to explore the utilization of reversible neural network layers for constructing a duplex speech chain model, enabling effective utilization of bidirectional supervision signals from parallel datasets. Current methods employing bidirectional supervision signals are primarily categorized into two groups: general multi-task learning and cycle consistency. While both categories utilize bidirectional supervision signals, these methods possess their own limitations. To address these challenges and create a duplex model for bidirectional speech tasks encompassing speech synthesis and speech recognition, we propose reversible modules and operations that can handle text and speech length discrepancies. The proposed model represents the first duplex sequence-to-sequence model capable of addressing both speech synthesis and speech recognition challenges. Moreover, this research introduces the application of reversible neural networks to speech-related tasks. We also conduct an analysis of how the utilization of bidirectional supervision signals affects the performance of the duplex model."
+abstract: "<p style='text-align: justify;'>The main objective of this paper is to explore the utilization of reversible neural network layers for constructing a duplex speech chain model, enabling effective utilization of bidirectional supervision signals from parallel datasets. Current methods employing bidirectional supervision signals are primarily categorized into two groups: general multi-task learning and cycle consistency. While both categories utilize bidirectional supervision signals, these methods possess their own limitations. To address these challenges and create a duplex model for bidirectional speech tasks encompassing speech synthesis and speech recognition, we propose reversible modules and operations that can handle text and speech length discrepancies. 
+
+The proposed model represents the first duplex sequence-to-sequence model capable of addressing both speech synthesis and speech recognition challenges. Moreover, this research introduces the application of reversible neural networks to speech-related tasks. We also conduct an analysis of how the utilization of bidirectional supervision signals affects the performance of the duplex model."
 
 # Summary. An optional shortened abstract.
 summary: The paper investigates reversible neural network layers for constructing a duplex speech chain model that utilizes bidirectional supervision signals. It introduces a novel approach to address speech synthesis and recognition challenges while analyzing the impact of bidirectional supervision on performance.
@@ -39,7 +41,7 @@ url_dataset: ''
 url_poster: ''
 url_project: ''
 url_slides: 'https://docs.google.com/presentation/d/1h5PDS26giSiNiqv2gxA7AGSubHjLCEnlJ0zTJOsKRXI/edit?usp=sharing'
-url_source: 'https://tdr.lib.ntu.edu.tw/jspui/handle/123456789/83100'
+url_source: ''
 url_video: ''
 
 # Featured image
