@@ -8,6 +8,7 @@ interests:
   - Digital Speech Processing
   - Text-to-Speech
   - Automatic Speech Recognition
+  - Computer Architecture
 social:
   - icon: envelope
     icon_pack: fas

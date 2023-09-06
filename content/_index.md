@@ -57,7 +57,7 @@ sections:
 
             * Conducted research in speech processing and acoustic modeling utilizing deep learning techniques to explore novel topics
             * Proposed the first [Duplex Speech Chain model](publication/duplexspeechchain) capable of performing Text‑to‑Speech and Automatic Speech Recognition simultaneously through the use of a single reversible network, enabling the effective use of supervision signals from both directions
-            * Proposed a simple [Neural Architecture Search](publication/jnet/) approach on audio source separation that utilizes the positive correlation in performance shown between models with fixed randomly weighted layers and their fully trained counterparts 
+            * Proposed an efficient [Neural Architecture Search](publication/jnet/) technique for audio source separation, reducing search time by 50% by leveraging on the signal to distortion ratio (SDR) correlation between randomly weighted and fully trained models
             * Served as a reviewer for ICASSP 2020
 
             <a class="badge badge-light">TTS</a> <a class="badge badge-light">ASR</a><a class="badge badge-light">Neural Architecture Search</a>
@@ -70,10 +70,10 @@ sections:
           date_start: '2017-07-01'
           date_end: '2017-08-31'
           description: |2-
-            * Compressed acoustic models via knowledge distillation, maintaining a modest performance decline with 50% fewer parameters
+            * Compressed acoustic models for compute-constrained embedded systems via Singular Value Decomposition (SVD), sustaining performance with 50\% fewer parameters
             * Created a toolkit to facilitate seamless migration of acoustic models from Kaldi to Tensorflow, effectively reducing development time
 
-            <a class="badge badge-light">Knowledge Distillation</a> <a class="badge badge-light">Model Migration</a>
+            <a class="badge badge-light">Model Compression</a> <a class="badge badge-light">Model Migration</a>
 
         - title: Research Intern
           company: Institute of Information Science, Academia Sinica
